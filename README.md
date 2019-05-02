@@ -1,4 +1,5 @@
 # Disposable Email Domains list
+[![Build Status](https://travis-ci.org/StephaneBour/disposable-email-domains.svg?branch=master)](https://travis-ci.org/StephaneBour/disposable-email-domains)
 
 A simple list of domain names of disposable emails.
 
