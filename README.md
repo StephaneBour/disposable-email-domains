@@ -1,7 +1,7 @@
 # Disposable Email Domains list
 [![Build Status](https://travis-ci.org/StephaneBour/disposable-email-domains.svg?branch=master)](https://travis-ci.org/StephaneBour/disposable-email-domains)
 
-A simple list of domain names of disposable emails. The list contains **72 815** domain names.
+A simple list of domain names of disposable emails. The list contains **97 043** domain names.
 
 ## Installation
 
