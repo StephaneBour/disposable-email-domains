@@ -23,10 +23,10 @@ class Domains
      */
     public static function isDisposable($email)
     {
-        if (filter_var($email, FILTER_VALIDATE_EMAIL) === false) {
+        if (\filter_var($email, FILTER_VALIDATE_EMAIL) === false) {
             throw new EmailNotValidException($email . ' is not a valid email');
         }
 
-        return \in_array(substr(strrchr($email, '@'), 1), include __DIR__ . '/../config/domains.php');
+        return \in_array(\substr(\strrchr($email, '@'), 1), include __DIR__ . '/../config/domains.php');
     }
 }

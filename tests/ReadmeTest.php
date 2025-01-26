@@ -11,6 +11,6 @@ class ReadmeTest extends TestCase
     {
         $domains = \count(Domains::all());
         $readme = file_get_contents(__DIR__ . '/../README.md');
-        $this->assertContains(number_format($domains, 0, '.', ' '), $readme);
+        $this->assertStringContainsString(number_format($domains, 0, '.', ' '), $readme);
     }
 }
